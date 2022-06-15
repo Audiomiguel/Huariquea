@@ -1,0 +1,240 @@
+.footer-container li {
+	font-size: 1.4rem;
+}
+
+body .text-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+    margin: 20px 0px;
+}
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-inline: 20px;
+}
+
+.content-text {
+	
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.footer-container li {
+	list-style: none;
+}
+.footer-container svg {
+	cursor: pointer;
+}
+
+.image-landing {
+	width: 100%;
+	min-height: 400px;
+	height: 70%;
+	/* max-height: 700px; */
+	background-image: url("assets/image-huariquea.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -1;
+}
+
+.form-landing {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	background-color: #fff;
+	border-radius: 10px;
+    margin-bottom: 15px;
+
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-landing {
+	width: 30%;
+	height: 80%;
+	border: none;
+	border-radius: 10px;
+	padding: 14px;
+	font-size: 1rem;
+	font-weight: 400;
+	color: black;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-landing:focus {
+	outline: none;
+	border-color: aliceblue;
+	box-shadow: 0 0 10px #719ece;
+}
+
+.button-landing {
+	background-color: #bd493c;
+	color: white;
+	border-radius: 10px;
+	min-width: 130px;
+	border: none;
+	cursor: pointer;
+	padding: 14px;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.button-landing:hover {
+	background-color: #8e4840;
+}
+.info-text {
+	padding-left: 20px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #bd493c;
+    
+}   
+
+.google-container {
+    background-color: #8e4840;
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    border: black 1px solid;
+    column-gap: 20px;
+    padding: 30px 40px;
+    
+}
+.google-container p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.google-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-text-google {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    background-color:#efc247bb;
+    padding: 20px 15px 20px 20px;
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.end-body {
+    background-color: #8e4840;
+    color: whitesmoke;
+    flex-wrap: wrap;
+
+    border: black 1px solid;
+    column-gap: 20px;
+    padding: 20px 40px;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.end-body p {
+    width: 100%;
+    text-align: center;
+
+}
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 20px;
+}
+@media (min-width: 400px) {
+    .container-text-google {
+        width: 100%;
+    }
+    .text-container-google {
+        width: 100%;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+    .google-container img {
+        width: 200px;
+        height: 200px;
+    }
+	.content-text {
+        width: 70%;
+	}
+    .google-container p {
+        color: whitesmoke;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+	.form-landing {
+		flex-wrap: wrap;
+        margin-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+		column-gap: 20px;
+		row-gap: 25px;
+		justify-content: center;
+		align-items: center;
+		height: 30%;
+		background-color: #fff;
+		border-radius: 10px;
+		padding: 20px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.input-landing {
+		width: 280px;
+		height: 80%;
+		border: none;
+		border-radius: 10px;
+		padding: 14px;
+		font-size: 1rem;
+		font-weight: 400;
+		color: black;
+		background-color: #fff;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	}
+}
+@media (min-width:600px) {
+    
+    .container-text-google {
+        width: 75%;
+    }
+    .text-container-google {
+        width: 80%;
+        text-align: justify;
+        font-size: 2rem;
+    }
+    .google-container img {
+        width: 140px;
+        height: 140px;
+    }
+    
+}
